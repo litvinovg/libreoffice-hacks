@@ -1,4 +1,4 @@
-package org.libreoffice.example.helper;
+package pro.litvinovg.libreoffice.helper;
 
 import java.io.File;
 

@@ -1,27 +1,27 @@
-package org.libreoffice.example.comp;
+package pro.litvinovg.libreoffice.comp;
 
 import com.sun.star.uno.XComponentContext;
 import com.sun.star.lib.uno.helper.Factory;
 
-import org.libreoffice.example.dialog.ActionOneDialog;
-import org.libreoffice.example.helper.DialogHelper;
+import pro.litvinovg.libreoffice.dialog.ActionOneDialog;
+import pro.litvinovg.libreoffice.helper.DialogHelper;
 
 import com.sun.star.lang.XSingleComponentFactory;
 import com.sun.star.registry.XRegistryKey;
 import com.sun.star.lib.uno.helper.WeakBase;
 
 
-public final class StarterProjectImpl extends WeakBase
+public final class HacksProjectImpl extends WeakBase
    implements com.sun.star.lang.XServiceInfo,
               com.sun.star.task.XJobExecutor
 {
     private final XComponentContext m_xContext;
-    private static final String m_implementationName = StarterProjectImpl.class.getName();
+    private static final String m_implementationName = HacksProjectImpl.class.getName();
     private static final String[] m_serviceNames = {
-        "org.libreoffice.example.StarterProject" };
+        "pro.litvinovg.libreoffice.HacksProject" };
 
 
-    public StarterProjectImpl( XComponentContext context )
+    public HacksProjectImpl( XComponentContext context )
     {
         m_xContext = context;
     };
@@ -30,7 +30,7 @@ public final class StarterProjectImpl extends WeakBase
         XSingleComponentFactory xFactory = null;
 
         if ( sImplementationName.equals( m_implementationName ) )
-            xFactory = Factory.createComponentFactory(StarterProjectImpl.class, m_serviceNames);
+            xFactory = Factory.createComponentFactory(HacksProjectImpl.class, m_serviceNames);
         return xFactory;
     }
 

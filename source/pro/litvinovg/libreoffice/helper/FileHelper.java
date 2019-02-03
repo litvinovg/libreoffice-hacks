@@ -1,4 +1,4 @@
-package org.libreoffice.example.helper;
+package pro.litvinovg.libreoffice.helper;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -28,7 +28,7 @@ public class FileHelper {
 	 */
 	public static File getFilePath(String file, XComponentContext xContext) {
 		XPackageInformationProvider xPackageInformationProvider = PackageInformationProvider.get(xContext);
-        String location = xPackageInformationProvider.getPackageLocation("org.libreoffice.example.starterproject");
+        String location = xPackageInformationProvider.getPackageLocation("pro.litvinovg.libreoffice.hacksproject");
         Object oTransformer;
 		try {
 			oTransformer = xContext.getServiceManager().createInstanceWithContext("com.sun.star.util.URLTransformer", xContext);

@@ -1,6 +1,6 @@
-package org.libreoffice.example.dialog;
+package pro.litvinovg.libreoffice.dialog;
 
-import org.libreoffice.example.helper.DialogHelper;
+import pro.litvinovg.libreoffice.helper.DialogHelper;
 
 import com.sun.star.awt.XDialog;
 import com.sun.star.awt.XDialogEventHandler;

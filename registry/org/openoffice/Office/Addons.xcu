@@ -4,29 +4,29 @@
 	<node oor:name="AddonUI">
 
 		<node oor:name="Images">
-			<node oor:name="org.libreoffice.example.StarterProject.imageActionOne" oor:op="replace">
+			<node oor:name="pro.litvinovg.libreoffice.HacksProject.imageActionOne" oor:op="replace">
 				<prop oor:name="URL" oor:type="xs:string">
-					<value>service:org.libreoffice.example.StarterProject?actionOne</value>
+					<value>service:pro.litvinovg.libreoffice.HacksProject?actionOne</value>
 				</prop>
 				<node oor:name="UserDefinedImages">
 					<prop oor:name="ImageSmallURL">
-						<value>vnd.sun.star.extension://org.libreoffice.example.starterproject/images/actionOne_16.png</value>
+						<value>vnd.sun.star.extension://pro.litvinovg.libreoffice.hacksproject/images/actionOne_16.png</value>
 					</prop>
 					<prop oor:name="ImageBigURL">
-						<value>vnd.sun.star.extension://org.libreoffice.example.starterproject/images/actionOne_26.png</value>
+						<value>vnd.sun.star.extension://pro.litvinovg.libreoffice.hacksproject/images/actionOne_26.png</value>
 					</prop>
 				</node>
 			</node>
 		</node>
 
 		<node oor:name="OfficeToolBar">
-			<node oor:name="org.libreoffice.example.StarterProject.toolbar" oor:op="replace">
+			<node oor:name="pro.litvinovg.libreoffice.HacksProject.toolbar" oor:op="replace">
 				<prop oor:name="Title" oor:type="xs:string">
-					<value>Starter Project</value>
+					<value>Hacks menu</value>
 				</prop>
 				<node oor:name="t01" oor:op="replace">
 					<prop oor:name="URL" oor:type="xs:string">
-						<value>service:org.libreoffice.example.StarterProject?actionOne</value>
+						<value>service:pro.litvinovg.libreoffice.HacksProject?actionOne</value>
 					</prop>
 					<prop oor:name="Target" oor:type="xs:string">
 						<value>_self</value>
@@ -42,9 +42,9 @@
 		</node>
 
 		<node oor:name="OfficeMenuBar">
-			<node oor:name="org.libreoffice.example.StarterProject.menubar" oor:op="replace">
+			<node oor:name="pro.litvinovg.libreoffice.HacksProject.menubar" oor:op="replace">
 				<prop oor:name="Title" oor:type="xs:string">
-					<value xml:lang="en-US">Starter Project</value>
+					<value xml:lang="en-US">Hacks Project Menu Bar</value>
 				</prop>
 				<prop oor:name="Context" oor:type="xs:string">
 					<value>com.sun.star.text.TextDocument</value>
@@ -55,7 +55,7 @@
 							<value xml:lang="en-US">Action One</value>
 						</prop>
 						<prop oor:name="URL">
-							<value>service:org.libreoffice.example.StarterProject?actionOne</value>
+							<value>service:pro.litvinovg.libreoffice.HacksProject?actionOne</value>
 						</prop>
 						<prop oor:name="Target" oor:type="xs:string">
 							<value>_self</value>

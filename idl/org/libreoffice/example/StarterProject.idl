@@ -1,8 +1,8 @@
-#ifndef __org_libreoffice_example_starterproject_idl__
-#define __org_libreoffice_example_starterproject_idl__
+#ifndef __pro_litvinovg_libreoffice_hacksproject_idl__
+#define __pro_litvinovg_libreoffice_hacksproject_idl__
 
 #include <com/sun/star/task/XJobExecutor.idl>
-module org { module libreoffice { module example { 	
+module pro { module litvinovg { module libreoffice { 	
 
 	service StarterProject : com::sun::star::task::XJobExecutor {
 

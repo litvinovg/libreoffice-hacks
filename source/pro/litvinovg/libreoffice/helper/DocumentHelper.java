@@ -1,4 +1,4 @@
-package org.libreoffice.example.helper;
+package pro.litvinovg.libreoffice.helper;
 
 import com.sun.star.frame.XDesktop;
 import com.sun.star.frame.XFrame;
